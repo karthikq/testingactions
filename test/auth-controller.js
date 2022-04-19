@@ -69,7 +69,7 @@ describe("auth controller", () => {
     authController
       .getUserStatus(req, res, () => {})
       .then((result) => {
-        expect(res.statusCode).to.be.equal(200);
+        expect(res.statusCode).to.be.equal(300);
         done();
       });
   });
